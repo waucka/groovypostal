@@ -7,7 +7,7 @@ class UrlMappings {
 			}
 		}
 
-		"/"(view:"/index")
+		"/"(controller:'show', action:"/tagcloud")
 		"500"(view:'/error')
 	}
 }
