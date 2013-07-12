@@ -1,6 +1,0 @@
-package groovypostal
-
-class ImportdataController {
-
-    def index() { render "TEST TEST TEST" }
-}
