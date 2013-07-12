@@ -40,7 +40,7 @@
 			}
 
 			#page-body {
-				margin: 2em 1em 1.25em 18em;
+				margin: 2em 1em 1.25em 1em;
 			}
 
 			h2 {
@@ -88,6 +88,7 @@
 		</style>
 	</head>
 	<body>
+		<div id="page-body">
 		<h2>Postal Codes By State</h2>
 		<g:if test="${!dbok}">
 			<p class="dangerous">Database data is not populated or is partially populated.</p>
@@ -97,6 +98,7 @@
 		</div>
 		<div id="reload">
 			<a class="dangerous" href="<g:createLink action="reloaddata" />">Reload Data</a>
+		</div>
 		</div>
 	</body>
 </html>

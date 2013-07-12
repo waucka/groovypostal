@@ -40,7 +40,7 @@
 			}
 
 			#page-body {
-				margin: 2em 1em 1.25em 18em;
+				margin: 2em 1em 1.25em 1em;
 			}
 
 			h2 {
@@ -82,7 +82,7 @@
 	<body>
 		<div id="page-body">
 		<h2>Reload</h2>
-		<p>This operation can take a rather long time.</p>
+		<p>This operation can take a rather long time.  Keep reloading the main page until you see the tags.  Why, yes, this <strong>is</strong> rather sub-optimal.</p>
 		<g:form name="confirm" action="reallyreload">
 			<g:submitButton name="reallydoit" value="Yes, blow away all my data and reload!" />
 		</g:form>
